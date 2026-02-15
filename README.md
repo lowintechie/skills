@@ -1,4 +1,3 @@
-```markdown
 # Skills
 
 Curated, versioned collection of reusable Codex skills for real-world engineering work.
@@ -82,4 +81,3 @@ Issues and pull requests are welcome for:
 ## License
 
 MIT (or your preferred license).
-```
