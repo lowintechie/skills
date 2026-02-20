@@ -1,5 +1,5 @@
 ---
-name: bakong
+name: bakong-khqr
 description: Bakong KHQR and Open API payment integration across backend and web/mobile clients. Use when implementing or debugging KHQR generation, KHQR verification/parsing, deeplink generation, token lifecycle (request/verify/renew), transaction status polling by md5/hash, or Bakong account checks.
 ---
 
