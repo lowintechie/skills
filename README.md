@@ -38,15 +38,15 @@ skills/
 Install from this repo by skill name:
 
 ```bash
-npx skills add https://github.com/<your-username>/skills --skill aba-payway
-npx skills add https://github.com/<your-username>/skills --skill bakong-khqr
+npx skills add https://github.com/lowintechie/skills --skill aba-payway
+npx skills add https://github.com/lowintechie/skills --skill bakong-khqr
 ```
 
 Alternative (path-based) install:
 
 ```bash
-npx skills add <your-username>/skills/aba-payway
-npx skills add <your-username>/skills/bakong-khqr
+npx skills add lowintechie/skills/aba-payway
+npx skills add lowintechie/skills/bakong-khqr
 ```
 
 ## Use a Skill in Codex
@@ -55,7 +55,7 @@ Invoke directly in prompts with `$skill-name`:
 
 ```text
 Use $aba-payway to implement secure ABA PayWay checkout.
-Use $bakong to implement Bakong KHQR and Open API payment checks.
+Use $bakong-khqr to implement Bakong KHQR and Open API payment checks.
 ```
 
 ## Add a New Skill
