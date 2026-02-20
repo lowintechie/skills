@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bakong"
+  short_description: "Implement Bakong KHQR and payment-status API integration"
+  default_prompt: "Use $bakong to implement or debug Bakong KHQR generation and Open API transaction-status checks."

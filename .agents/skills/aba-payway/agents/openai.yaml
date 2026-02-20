@@ -1,0 +1,4 @@
+interface:
+  display_name: "ABA PayWay"
+  short_description: "Implement ABA PayWay in Next.js, React, Vue, and Nuxt"
+  default_prompt: "Use $aba-payway to implement secure ABA PayWay checkout (Next.js first, then adapt to React, Vue, or Nuxt)."
