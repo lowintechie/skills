@@ -11,6 +11,7 @@ This repository centralizes skills so they can be reused across projects and tea
 | Skill | Description | Notes |
 |---|---|---|
 | `aba-payway` | ABA PayWay checkout integration and troubleshooting | Framework-agnostic, Next.js-first profile |
+| `bakong-khqr` | Bakong KHQR + Open API payment integration and troubleshooting | Dynamic/static KHQR guidance, token lifecycle, status polling patterns |
 
 ## Repository Structure
 
@@ -23,6 +24,12 @@ skills/
 │   │   └── openai.yaml
 │   ├── references/
 │   └── scripts/
+├── bakong-khqr/
+│   ├── SKILL.md
+│   ├── README.md
+│   ├── agents/
+│   │   └── openai.yaml
+│   └── references/
 └── ...
 ```
 
@@ -32,12 +39,14 @@ Install from this repo by skill name:
 
 ```bash
 npx skills add https://github.com/<your-username>/skills --skill aba-payway
+npx skills add https://github.com/<your-username>/skills --skill bakong-khqr
 ```
 
 Alternative (path-based) install:
 
 ```bash
 npx skills add <your-username>/skills/aba-payway
+npx skills add <your-username>/skills/bakong-khqr
 ```
 
 ## Use a Skill in Codex
@@ -46,6 +55,7 @@ Invoke directly in prompts with `$skill-name`:
 
 ```text
 Use $aba-payway to implement secure ABA PayWay checkout.
+Use $bakong to implement Bakong KHQR and Open API payment checks.
 ```
 
 ## Add a New Skill
